@@ -1,0 +1,112 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    background: #f1f1f1;
+    color: #0f141e;
+}
+header{
+    margin-bottom: 30px;
+    display: flex;
+}
+@media (max-width:650px){
+    header{
+        display: block;
+    }
+}
+.my_photo{
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, .25);
+}
+.container{
+    max-width: 850px;
+    height: auto;
+    margin: auto;
+}
+.info{
+    margin: 10px;
+}
+.info h4{
+    color: grey;
+    opacity: 0.8;;
+    margin-bottom: 10px;
+}
+.links{
+    margin: 10px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    padding-right: 7px;
+    border-right: 1px solid black
+}
+.links a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.hobby h2{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0px;
+}
+.hobby{
+    background: #ffe5e5;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.hobby li{
+    color: grey;
+}
+.experience{
+    background: #e5ffe7;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.experience h2{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0px;
+}
+.experience td:nth-child(odd){
+    padding-bottom: 8px;
+    padding-right: 200px;
+}
+.experience td:nth-child(even){
+    color: grey;
+}
+#email{
+    border-style: none;
+    background-color: #f1f1f1;
+}
+#name{
+    border-style: none;
+    background-color: #f1f1f1;
+}
+#message{
+    border-style: none;
+    background-color: #f1f1f1;
+}
+.form-group{
+    border-bottom: 1px solid grey;
+    width: 300px;
+    margin-left: 23px;
+    margin-bottom: 20px;
+    color: grey;
+}
+.form-row{
+    display: flex;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-style: none;
+    border-radius: 9px;
+    padding: 10px 15px;
+}
+
+
